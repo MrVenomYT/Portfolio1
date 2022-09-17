@@ -6,7 +6,7 @@ import logo from "../Assets/logo.png";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 import { CgGitFork } from "react-icons/cg";
-// import { FaDiscord } from "react-icons/fa";
+import { HiRefresh } from "react-icons/hi";
 import {
   AiFillStar,
   AiOutlineHome,
@@ -89,6 +89,16 @@ function NavBar() {
                 onClick={() => updateExpanded(false)}
               >
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
+              </Nav.Link>
+            </Nav.Item>
+          </Nav>
+ <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/resume"
+                onClick={() => updateExpanded(false)}
+              >
+                <HiRefresh style={{ marginBottom: "2px" }} /> HireMe
               </Nav.Link>
             </Nav.Item>
           </Nav>
