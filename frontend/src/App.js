@@ -41,7 +41,7 @@ function App() {
           <Route path="/project" element={<Projects />} />
           <Route path="/about" element={<About />} />
           <Route path="/resume" element={<Resume />} />
-          <Route path="https://business.fiverr.com/venomdesigne613" element={<Navigate to="Hire Me"/>} />
+          <Route path="https://business.fiverr.com/venomdesigne613" element={<Navigate to="HireMe"/>} />
             
           
           
