@@ -95,7 +95,7 @@ function NavBar() {
  <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/resume"
+                to="https://business.fiverr.com/venomdesigne613"
                 onClick={() => updateExpanded(false)}
               >
                 <HiRefresh style={{ marginBottom: "2px" }} /> HireMe
