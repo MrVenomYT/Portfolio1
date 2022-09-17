@@ -37,11 +37,12 @@ function App() {
         <Navbar />
         <ScrollToTop />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="https://portfolio-hasil.herokuapp.com/" element={<Home />} />
           <Route path="/project" element={<Projects />} />
           <Route path="/about" element={<About />} />
           <Route path="/resume" element={<Resume />} />
-          <Route path="*" element={<Navigate to="/"/>} />
+          <Route path="https://business.fiverr.com/venomdesigne613" element={<Navigate to="Hire Me"/>} />
+            
           
           
         </Routes>
