@@ -77,7 +77,6 @@ function Projects() {
               imgPath={rental}
               isBlog={false}
               title="Rental Car Web App"
-              description="A demo version of rental car web app in which you can post yoour ad of different kind of cars in full detail about their specifications for public info."
               ghLink="https://github.com/MrVenomYT/Rental-car-webapp.git"
               demoLink="https://rental-car-webapp.vercel.app/"
             />
