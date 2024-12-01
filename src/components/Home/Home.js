@@ -42,7 +42,15 @@ function Home() {
         </Container>
       </Container>
       <Home2 />
-      
+      <script async
+  src="https://js.stripe.com/v3/buy-button.js">
+</script>
+
+<stripe-buy-button
+  buy-button-id="buy_btn_1QRLDII2m7bOkMy0KLgs33ad"
+  publishable-key="pk_test_51QQR9MI2m7bOkMy0cd2yUENHruIPyJ5aVQY1qXLY3GvRsIERreuPh7YznZhBJH14kt7jDVoxPj7kWJcDOovaOUP800dCY7kQZj"
+>
+</stripe-buy-button>
     </section>
   );
 }
