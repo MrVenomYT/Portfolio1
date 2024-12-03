@@ -21,17 +21,6 @@ html {
 button:focus {
   box-shadow: none !important;
 }
-.home-section {
-  background: linear-gradient(135deg, #1e293b, #0f172a);
-  color: #fff;
-}
-.heading {
-  font-size: 2.5rem;
-}
-@media (max-width: 768px) {
-  .heading {
-    font-size: 2rem;
-  }
   .img-fluid {
     max-height: 300px;
   }
