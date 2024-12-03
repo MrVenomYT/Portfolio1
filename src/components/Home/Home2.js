@@ -125,8 +125,7 @@ function Home2() {
         </Row>
       </Container>
     </Container>
-<script async
-  src="https://js.stripe.com/v3/buy-button.js">
+<script src="https://js.stripe.com/v3/buy-button.js">
 </script>
 
 <stripe-buy-button
